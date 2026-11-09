@@ -1,0 +1,6 @@
+services:
+  app:
+    image: express-sever
+    build: .
+    ports:
+      - 3000:3000

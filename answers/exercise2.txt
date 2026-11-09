@@ -1,0 +1,7 @@
+PS C:\Users\Konst> docker container run -it ubuntu bash
+
+root@2f71cac95587:/# mkdir /usr/src/app
+root@2f71cac95587:/# cd /usr/src/app
+root@2f71cac95587:/usr/src/app# touch index.js
+root@2f71cac95587:/usr/src/app# exit
+exit

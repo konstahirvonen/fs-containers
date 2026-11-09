@@ -1,0 +1,12 @@
+PS C:\Users\Konst> docker container ls -a
+CONTAINER ID   IMAGE     COMMAND   CREATED              STATUS                      PORTS     NAMES
+2f71cac95587   ubuntu    "bash"    About a minute ago   Exited (0) 51 seconds ago             elated_golick
+
+PS C:\Users\Konst> docker start -i elated_golick
+root@2f71cac95587:/# apt-get update
+root@2f71cac95587:/# apt-get -y install nano
+
+root@2f71cac95587:/# nano /usr/src/app/index.js
+
+root@2f71cac95587:/# cat /usr/src/app/index.js
+console.log("Hello world")
