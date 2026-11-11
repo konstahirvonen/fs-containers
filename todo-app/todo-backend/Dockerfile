@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN npm ci --omit=Dev
+RUN npm ci --omit=dev
 
 CMD ["npm", "start"]
